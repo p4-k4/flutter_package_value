@@ -1,4 +1,4 @@
-name: value
+name: flutter_value
 description: "A lightweight state management solution for Flutter that makes handling loading, error, and data states elegant and type-safe using Dart's pattern matching."
 version: 0.0.1
 homepage: https://github.com/p4-k4/flutter_package_value

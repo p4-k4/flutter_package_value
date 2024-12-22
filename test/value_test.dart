@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_test/flutter_test.dart';
-import 'package:value/value.dart';
+import 'package:flutter_value/value.dart';
 
 void main() {
   group('Value', () {

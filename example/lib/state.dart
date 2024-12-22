@@ -1,4 +1,4 @@
-import 'package:value/value.dart';
+import 'package:flutter_value/value.dart';
 
 final counter = Value<int>(0);
 
