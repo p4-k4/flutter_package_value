@@ -1,7 +1,14 @@
 name: value
-description: "A new Flutter package project."
+description: "A lightweight state management solution for Flutter that makes handling loading, error, and data states elegant and type-safe using Dart's pattern matching."
 version: 0.0.1
-homepage:
+homepage: https://github.com/p4-k4/flutter_package_value
+repository: https://github.com/p4-k4/flutter_package_value
+topics:
+  - state
+  - notifier
+  - state-management
+  - flutter
+  - pattern-matching
 
 environment:
   sdk: ^3.6.0-334.4.beta

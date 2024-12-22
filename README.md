@@ -1,6 +1,11 @@
 # Value
 
+[![pub package](https://img.shields.io/pub/v/value.svg)](https://pub.dev/packages/value)
+[![GitHub](https://img.shields.io/github/license/p4-k4/flutter_package_value.svg)](https://github.com/p4-k4/flutter_package_value/blob/master/LICENSE)
+
 A lightweight state management solution for Flutter that makes handling loading, error, and data states elegant and type-safe using Dart's pattern matching.
+
+Created by [p4-k4](https://github.com/p4-k4).
 
 ## Features
 
@@ -165,14 +170,11 @@ Value provides several state types to handle different scenarios:
 
 ## Contributing
 
-Contributions are welcome! Please feel free to submit a Pull Request.
-
-
+Contributions are welcome! Please feel free to submit a Pull Request to our [GitHub repository](https://github.com/p4-k4/flutter_package_value).
 
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
 
 ## Author
 Paurini Taketakehikuroa Wiringi
