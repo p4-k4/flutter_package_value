@@ -11,7 +11,7 @@ topics:
   - pattern-matching
 
 environment:
-  sdk: ^3.6.0-334.4.beta
+  sdk: '>=3.2.0 <4.0.0'
   flutter: ">=1.17.0"
 
 dependencies:
