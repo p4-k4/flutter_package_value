@@ -182,7 +182,8 @@ void main() {
 
     testWidgets('disposes listeners properly', (tester) async {
       final value = Value<int>(0);
-      var hasListeners = false;
+      var notificationCount = 0;
+      value.addListener(() => notificationCount++);
 
       await tester.pumpWidget(
         MaterialApp(
@@ -196,14 +197,16 @@ void main() {
         ),
       );
 
-      // Verify listener was added
-      expect(value.hasListeners, true);
+      // Verify notification works
+      value.notify();
+      expect(notificationCount, 1);
 
       // Dispose by replacing with empty container
       await tester.pumpWidget(Container());
 
-      // Verify listener was removed
-      expect(value.hasListeners, false);
+      // Verify notifications no longer received after disposal
+      value.notify();
+      expect(notificationCount, 1); // Count should not increase
     });
   });
 }
